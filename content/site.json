@@ -1,9 +1,9 @@
 {
-  "siteTitle": "Pontus-X Ecosystem - powered by Gaia-X",
-  "siteTagline": "Streamlined interoperability across digital service ecosystems.",
-  "siteUrl": "https://portal.pontus-x.eu",
+  "siteTitle": "AgrospAI",
+  "siteTagline": "Agri-food Data Space Demonstrator for Sovereign Data-Sharing and Artificial Intelligence Services",
+  "siteUrl": "https://agrospai.udl.cat",
   "siteImage": "/share.png",
-  "copyright": "All Rights Reserved. Powered by [Gaia-X](https://gaia-x.eu/), [Oasis](https://oasisprotocol.org/) and [Ocean Enterprise](https://www.oceanenterprise.io/). Built by [deltaDAO](https://delta-dao.com).",
+  "copyright": "All Rights Reserved. Powered by [Gaia-X](https://gaia-x.eu/), [Oasis](https://oasisprotocol.org/) and [Ocean Enterprise](https://www.oceanenterprise.io/). Built by [deltaDAO](https://delta-dao.com) and [Universitat de Lleida](https://www.udl.cat).",
   "menu": [
     {
       "name": "Catalogue",
@@ -29,6 +29,10 @@
     {
       "name": "Ecosystem",
       "subItems": [
+        {
+          "name": "Pontus-X",
+          "link": "https://portal.pontus-x.eu/"
+        },
         {
           "name": "EuProGigant",
           "link": "https://portal.euprogigant.io/",
@@ -67,14 +71,6 @@
           "description": "For those who make this world a safer place. We pioneer defense and space for their mission success.",
           "image": "airbus-logo.webp",
           "category": "manufacturing",
-          "isLive": true
-        },
-        {
-          "name": "beebucket",
-          "link": "https://daseen.pontus-x.eu/",
-          "description": "The beebucket portal features access to the Extended Dataset Profile Service (EDPS) and Dataset Search Engine (daseen).",
-          "image": "beebucket.webp",
-          "category": "AI",
           "isLive": true
         },
         {
@@ -122,6 +118,14 @@
           "link": "https://agrospai.udl.cat/",
           "description": "Agri-food Data Space Demonstrator for Sovereign Data-Sharing and Artificial Intelligence Services.",
           "image": "agrospai-logo.webp",
+          "category": "agriculture",
+          "isLive": true
+        },
+        {
+          "name": "Agrifood TEF",
+          "link": "http://dataspace.agrifoodtef.eu/",
+          "description": "The European Testing and Experimentation Facilities for Agrifood Innovation.",
+          "image": "agrifoodTEF.webp",
           "category": "agriculture",
           "isLive": true
         },
@@ -176,7 +180,7 @@
   },
   "footer": {
     "subtitle": "Transforming Data Act Compliance into Scalable Monetization Opportunities",
-    "copyright": "Built by [deltaDAO](https://delta-dao.com)",
+    "copyright": "Developed by [Universitat de Lleida](https://www.udl.cat) and powered by [deltaDAO](https://delta-dao.com)",
     "privacyTitle": "Legal",
     "content": [
       {
