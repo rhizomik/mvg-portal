@@ -19,6 +19,8 @@ import useNetworkMetadata from '@hooks/useNetworkMetadata'
 import ConsumerParameters from '../ConsumerParameters'
 import { ComputeDatasetForm } from './_constants'
 import { useAutomation } from '../../../../@context/Automation/AutomationProvider'
+import ConsentPetitionButton from './ConsentPetitionButton'
+import ConsentsPetitionProvider from '@context/Profile/ConsentsPetitionProvider'
 
 export default function FormStartCompute({
   algorithms,
@@ -329,6 +331,9 @@ export default function FormStartCompute({
           isLoading={isLoading}
         />
       )}
+      <ConsentsPetitionProvider>
+        <ConsentPetitionButton />
+      </ConsentsPetitionProvider>
       <PriceOutput
         hasPreviousOrder={hasPreviousOrder}
         assetTimeout={assetTimeout}
@@ -348,7 +353,6 @@ export default function FormStartCompute({
         validUntil={validUntil}
         totalPrices={totalPrices}
       />
-
       <ButtonBuy
         action="compute"
         disabled={
