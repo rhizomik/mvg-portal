@@ -493,7 +493,7 @@ export async function verifyRawServiceCredential(
   //   parsedServiceSD?.selfDescriptionCredential?.['@context']
   // )
 
-  const baseUrl = `${complianceUri}/v1/api/credential-offers`
+  const baseUrl = `${complianceUri}/v1-staging/api/credential-offers`
   const verifiedAndComplianceApiVersion = {
     verified: true,
     complianceApiVersion
